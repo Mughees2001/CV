@@ -1,0 +1,155 @@
+
+
+body{
+    margin:0;
+    /* All 4 margins are going to be 0px so our webpage will start from top */
+    text-align: center;
+    /*font-family:verdana,sans-serif; Verdana font otherwise default sans-serif */
+    font-family: 'Merriweather', serif;
+    font-style:normal;
+    color:#40514E;
+    
+}
+h1{
+    margin:50px auto 0px auto;
+    /*
+    width: 10%;
+    margin:0 auto 0 auto;
+    Even if you have used text-align:center,if you change width of display:block-element then you have to set margin again. */
+    font-family: 'Sacramento',cursive;
+    /*font-size:90px; In terms of px it is not dynamic so if user change chrome setting to small font then it won't change*/
+    /*font-size:562.5%; /* Equivalent to 16px,so 90px= 90/16 = 562.5%  (Dynamic)*/
+    /*font-size: 5.625em; /* 16px=100%=1em 90px=5.625em  em is also Dynamic with chrome settings*/
+    font-size: 5.625rem; /* rem stands for root-em it does not change the font size even if body has font-size applied to it.TRY USING REM! */
+    color:#66BFBF;
+    /*line-height:2;  give a single value without unit */
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem; /*Equivalent to 40px ... 40/16 = 2.5rem */
+    color:#66BFBF;
+    font-weight: normal;
+}   
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    margin:10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:#EAF6F6;
+
+}
+
+.top_container{
+    background-color: #E4F9F5;
+    position:relative;
+    padding-top:100px;
+   
+}
+.middle_container{
+    margin:100px auto;
+}
+
+.bottom_container{
+    background-color: #66BFBF;
+    padding:50px 0 20px;
+}
+p{
+    line-height:2;
+}
+
+.pro{
+    text-decoration: underline;
+}
+.bottom-cloud
+{
+    position:absolute;
+    left:250px;
+    bottom:300px;
+}
+.top-cloud
+{
+    position:absolute;
+    right:300px;
+    top:40px;
+}
+.profile-pic{
+    width:200px;
+    height:200px;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto;
+    text-align: left;
+}
+.python-img
+{
+    width:15%;
+    float:left;
+    margin-right:30px;
+}
+.webdev-img
+{   
+    float:right; /*ONLY USE IT FOR WRAPPING AROUND CERTAIN ELEMENT DON'T USE FOR POSITIONING */
+    width:15%;
+    margin-left:30px;
+}
+hr{
+    border-color:#40514E;
+    border-style: dotted none none none;
+    border-width:6px;
+    height:0px;
+    width:4%;
+    margin:100px auto;
+}
+.copy-right{
+    color:#EAF6F6;
+    font-size:0.75rem;
+    padding:20px 0;
+}
+
+.contact-me{
+    line-height:2;
+
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .intro{
+    width:30%;
+    margin:auto;
+  }
+  .contact-message{
+    width:40%;
+    margin:40px auto 60px;
+  }
